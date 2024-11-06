@@ -36,7 +36,7 @@ class _CustomTabBarState extends State<CustomTabBar>with TickerProviderStateMixi
                     color: Colors.blue,
                     borderRadius: BorderRadius.circular(20),
                   ),
-                  tabs: [
+                  tabs: const [
                Tab(icon: Icon(Icons.home),),
                 Tab(icon: Icon(Icons.notification_important_outlined),),
                 Tab(icon: Icon(Icons.access_time_outlined),),

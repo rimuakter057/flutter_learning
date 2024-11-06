@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+
+import 'app/view/cupertino/cupertino_homepage.dart';
 import 'app/view/pages/app_bar.dart';
 import 'app/view/pages/custom_tab_bar.dart';
 import 'app/view/pages/tab_bar.dart';
@@ -36,7 +38,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  CustomTabBar(),
+      home:  CupertinoHomepage (),
     );
   }
 }
